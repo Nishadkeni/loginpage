@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  <!-- cursor: pointer;-->
+}
+body{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right,#3f5efb,#fc466b);
+}
+form{
+  width: 28rem;
+  height: 38rem;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255,255,255,0.14);
+  box-shadow: 0 8px 32px 0 rgba(31,38,135,.70);
+  border-radius: 30px;
+
+}
+h1{
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+  letter-spacing: 3px;
+  margin-bottom: 5%;
+  opacity: .7;
+  border-top: 1px;
+}
+label{
+  font-size: 20px;
+  color: white;
+  margin-left: 10%;
+  opacity: .8;
+  text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+}
+input{
+  width: 80%;
+  margin: 5% auto;
+  margin-bottom: 8%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  opacity: .8;
+}
+button{
+  width: 50%;
+  margin: 3% auto;
+  color: black;
+  opacity: .7;
+  background: rgba(255,255,255,0.06);
+  padding: 10px;
+  outline: none;
+  border-radius: 20px;
+  text-shadow: 2px 2px 4px rgba(255,255,255,0.2);
+  box-shadow: 3px 3px 5px rgba(31,38,135,.37);
+  border-left: 1px solid rgba(255,255,255,.3);
+  border-top: 1px solid rgba(255,255,255,.3);
+  cursor: pointer;
+}
+
+a{
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+}
+button:hover{
+
+  transform: scale(1.1) ;
+}
+.login-button{
+  font-size: 18px;
+}
+.login-card-social div{
+  opacity: .8;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: calc(1rem * .8);
+}
+
+.login-card-social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.login-card-social-btn a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, .6);
+    border-radius: 100px;
+    transition: all .5s;
+}
+
+.login-card-social-btn a:hover {
+    background: white ;
+    transform: scale(1.1) ;
+}
+.other-signin{
+  margin-top: 30px;
+  padding-left: 130px;
+  font-size: 30px;
+}
+.login-card-footer{
+  padding-left: 40px;
+  color: #232424;
+}
+.login-card-footer a:hover{
+text-decoration: none;
+color: #35339a;
+}
+.forgetpass:hover{
+  text-decoration: none;
+  color: #35339a;
+}
+.createacc{
+  text-decoration: none;
+  font-size: 15px;
+}
+.forgetpass{
+  text-decoration: none;
+  font-size: 15px;
+}
